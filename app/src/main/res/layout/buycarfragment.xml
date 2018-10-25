@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#d43c">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="购物车"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/buycar_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"></android.support.v7.widget.RecyclerView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#d43c">
+
+        <CheckBox
+            android:id="@+id/ck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="合计:"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/zprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/ck"
+            android:text="0.00"
+            android:textColor="#ffffff"
+            android:textSize="19dp" />
+
+        <View
+            android:layout_width="0.75dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10sp"
+            android:layout_toLeftOf="@+id/finish"
+            android:background="#ffffff"></View>
+
+        <Button
+            android:id="@+id/finish"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:text="结算(0)" />
+    </RelativeLayout>
+</LinearLayout>

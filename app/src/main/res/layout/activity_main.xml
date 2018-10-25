@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/shopshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="商品展示(瀑布流)" />
+
+    <Button
+        android:id="@+id/threeshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="第三方登录暨轮播图……" />
+
+    <Button
+        android:id="@+id/water"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="水波纹" />
+
+    <Button
+        android:id="@+id/liushi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="流式布局" />
+</LinearLayout>
