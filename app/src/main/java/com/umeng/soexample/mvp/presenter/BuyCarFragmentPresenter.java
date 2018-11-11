@@ -79,8 +79,6 @@ public class BuyCarFragmentPresenter extends AppDelegate {
         if (b) {
             bc_price.setText(allprice + "");
             button.setText("结算(" + allnum + ")");
-
-
         } else {
             bc_price.setText(0 + "");
             button.setText("结算(" + 0 + ")");
